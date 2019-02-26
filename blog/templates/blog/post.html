@@ -1,0 +1,23 @@
+{% extends "Home/header.html" %}
+{% block content %}
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <!--<h3 class="masthead-brand">Cover</h3> -->
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/bt/">Brain Trust</a>
+            <a class="nav-link active" href="/blog/">Blog</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+
+	<h3><a href="/blog/{{post.id}}">{{ post.title }}</a></h3>
+	<h6>Posted on {{ post.date }}</h6>
+
+	<div class = "container">
+		{{ post.body|safe|linebreaks}}
+	</div>
+	<br><br>
+{% endblock %}

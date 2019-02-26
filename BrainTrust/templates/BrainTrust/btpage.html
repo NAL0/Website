@@ -1,0 +1,127 @@
+{% extends "BrainTrust/header.html" %}
+{% block content %}
+
+ {% load staticfiles %}
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        {% static 'BrainTrust/image/ioi.png' width="100%" height="100%" background="#777" color="#777" text=" " title=" " %}
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Join us</h1>
+            <p>Help New Age Liberty in creating a inclusive Afrika and world by advancing the Sustainable Development Goals(<a href="https://sustainabledevelopment.un.org/topics/sustainabledevelopmentgoals">SGDs</a>) and striving towards the achievement of the Afrika We Want outlined in Agenda 2063</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        {% static 'BrainTrust/image/ioi.png' %}
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Library is Now Open</h1>
+            <p>The Brain Trust introduces it's online library, making available books, audiobooks and organisational documents to aid learning, organisational co-operation and spread awareness</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Access library</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        {% static 'BrainTrust/image/ioi.png' %}
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>The role of Blockchain in creating the Afrika that We Want</h1>
+            <p>Blockchain affords us the ability to achieve the dream of a Afrikan central bank, issuing a universal currency usable in all countries in the Afrikan Union(AU). New Age Liberty is dedicated to create The People's Bank to issue the Afcoin as a universal currency.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Read Afcoin paper</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        {% static 'BrainTrust/image/af.png' width="140" height="140" background="#777" color="#777" class="rounded-circle" %}
+        <h2>Ubuntu</h2>
+        <p>“A person with Ubuntu is open and available to others, affirming of others, does not feel threatened that others are able and good, based from a proper self-assurance that comes from knowing that he or she belongs in a greater whole and is diminished when others are humiliated or diminished, when others are tortured or oppressed.”															 - Archbishop Desmond Tutu</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        {% static 'BrainTrust/image/af.png' %}
+        <h2>Constitutive Act</h2>
+        <p>New Age Liberty was born 4 April 2016. The Act outlines the mandate of the organisation, the structures and procedures to be followed in day to day operations</p>
+        <p><a class="btn btn-secondary" href="/]
+\constitution/" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        {% static 'BrainTrust/image/a.jpg' width="140" height="140" background="#777" color="#777" class="rounded-circle" %}
+        <h2>Democracy</h2>
+        <p>We hold the view that representative democracies do not always represent the will of the people, that only through a direct-democracy does the voice of the people always shine through and thus, we pledge to create an environment that will promote direct participation by civil society in the running of their country.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">The basic 5 elements. <span class="text-muted">A source of power?</span></h2>
+        <p class="lead">Earth, Water, Air and Fire. These are the elements said to life on earth but we often forget one element that is the key to unlocking the Power of these elements. Renewable energy to power modern houses, cities, industry and transportation.</p>
+      </div>
+      <div class="col-md-5">
+        {% static 'BrainTrust/image/ioi.png' width="500" height="500" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto" %}
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <h2 div class="col-md-7 order-md-2">When will Afrika create the Ubuntu car.<span class="text-muted">It's first electric car?</span></h2>
+        <p class="lead">Afrika is a Beautiful land with clean water, clean air and green landscapes cars running on fossil fuels are a danger to that. The widespread adoption of a home-grown electric car will go a long way in keeping the seas of Afrika blue, it's lands green and it's air fresh.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        {% static 'BrainTrust/image/af.png' %}
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Artificial Intelligence and Ubuntu.<span class="text-muted">A.I. must be regulated?</span></h2>
+        <p class="lead">Artificial Intelligence is a POWERFUL tool and like any tool it has the potential for great good and for great evil. If we are not careful it could be the weapon to destroy all humanity and so A.I. must be regulated to include the <a href="#">3 maxims of Ubuntu</a> into it's code in order that it may understand what it means to be human</p>
+      </div>
+      <div class="col-md-5">
+	{% static 'BrainTrust/image/ioi.png' %}
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+{% endblock %}
+
