@@ -9,5 +9,5 @@ from django.urls import path
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('constitution', views.index2, name='index2'),
+    path('constitution/', views.index2, name='index2'),
     ]

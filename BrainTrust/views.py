@@ -5,5 +5,5 @@ from django.shortcuts import render
 def index(request):
 	return render(request, 'BrainTrust/btpage.html')
 
-def index(request):
+def index2(request):
 	return render(request, 'BrainTrust/constitutive_act.html')
